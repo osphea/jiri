@@ -11,9 +11,9 @@ import (
 	"io/ioutil"
 	"os"
 
-	"fuchsia.googlesource.com/jiri"
-	"fuchsia.googlesource.com/jiri/cmdline"
-	"fuchsia.googlesource.com/jiri/project"
+	"github.com/dahlia-os/jiri/jiri"
+	"github.com/dahlia-os/jiri/jiri/cmdline"
+	"github.com/dahlia-os/jiri/jiri/project"
 )
 
 var (
