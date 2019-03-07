@@ -14,10 +14,10 @@ import (
 	"strings"
 	"testing"
 
-	"fuchsia.googlesource.com/jiri"
-	"fuchsia.googlesource.com/jiri/gitutil"
-	"fuchsia.googlesource.com/jiri/jiritest"
-	"fuchsia.googlesource.com/jiri/project"
+	"github.com/dahlia-os/jiri"
+	"github.com/dahlia-os/jiri/gitutil"
+	"github.com/dahlia-os/jiri/jiritest"
+	"github.com/dahlia-os/jiri/project"
 )
 
 func setDefaultStatusFlags() {
