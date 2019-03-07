@@ -12,7 +12,7 @@ import (
 	"strings"
 	"testing"
 
-	"fuchsia.googlesource.com/jiri/jiritest"
+	"github.com/dahlia-os/jiri/jiri/jiritest"
 )
 
 type importTestCase struct {
