@@ -10,10 +10,10 @@ import (
 	"os"
 	"strconv"
 
-	"fuchsia.googlesource.com/jiri/envvar"
-	"fuchsia.googlesource.com/jiri/lookpath"
-	"fuchsia.googlesource.com/jiri/textutil"
-	"fuchsia.googlesource.com/jiri/timing"
+	"github.com/dahlia-os/jiri/envvar"
+	"github.com/dahlia-os/jiri/lookpath"
+	"github.com/dahlia-os/jiri/textutil"
+	"github.com/dahlia-os/jiri/timing"
 )
 
 // EnvFromOS returns a new environment based on the operating system.
