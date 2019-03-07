@@ -9,10 +9,10 @@ import (
 	"os"
 	"path/filepath"
 
-	"fuchsia.googlesource.com/jiri"
-	"fuchsia.googlesource.com/jiri/cmdline"
-	"fuchsia.googlesource.com/jiri/gitutil"
-	"fuchsia.googlesource.com/jiri/project"
+	"github.com/dahlia-os/jiri"
+	"github.com/dahlia-os/jiri/cmdline"
+	"github.com/dahlia-os/jiri/gitutil"
+	"github.com/dahlia-os/jiri/project"
 )
 
 var cmdGrep = &cmdline.Command{
