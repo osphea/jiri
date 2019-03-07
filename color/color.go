@@ -8,7 +8,7 @@ import (
 	"fmt"
 	"os"
 
-	"fuchsia.googlesource.com/jiri/isatty"
+	"github.com/dahlia-os/jiri/isatty"
 )
 
 type Colorfn func(format string, a ...interface{}) string
