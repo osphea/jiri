@@ -8,8 +8,8 @@ import (
 	"io/ioutil"
 	"testing"
 
-	"fuchsia.googlesource.com/jiri/jiritest"
-	"fuchsia.googlesource.com/jiri/project"
+	"github.com/dahlia-os/jiri/jiritest"
+	"github.com/dahlia-os/jiri/project"
 )
 
 func TestResolveProjects(t *testing.T) {
