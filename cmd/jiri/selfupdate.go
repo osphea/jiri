@@ -7,8 +7,8 @@ package main
 import (
 	"fmt"
 
-	"fuchsia.googlesource.com/jiri"
-	"fuchsia.googlesource.com/jiri/cmdline"
+	"github.com/dahlia-os/jiri"
+	"github.com/dahlia-os/jiri/cmdline"
 )
 
 // cmdSelfUpdate represents the "jiri update" command.
