@@ -8,8 +8,8 @@ import (
 	"fmt"
 	"strings"
 
-	"fuchsia.googlesource.com/jiri/cipd"
-	"fuchsia.googlesource.com/jiri/cmdline"
+	"github.com/dahlia-os/jiri/cipd"
+	"github.com/dahlia-os/jiri/cmdline"
 )
 
 var cmdBootstrap = &cmdline.Command{
