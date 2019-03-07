@@ -21,9 +21,9 @@ import (
 	"strconv"
 	"strings"
 
-	"fuchsia.googlesource.com/jiri"
-	"fuchsia.googlesource.com/jiri/collect"
-	"fuchsia.googlesource.com/jiri/envvar"
+	"github.com/dahlia-os/jiri"
+	"github.com/dahlia-os/jiri/collect"
+	"github.com/dahlia-os/jiri/envvar"
 )
 
 var (
