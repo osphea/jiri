@@ -11,9 +11,9 @@ import (
 	"io/ioutil"
 	"os"
 
-	"github.com/dahlia-os/jiri/jiri"
-	"github.com/dahlia-os/jiri/jiri/cmdline"
-	"github.com/dahlia-os/jiri/jiri/project"
+	"github.com/dahlia-os/jiri"
+	"github.com/dahlia-os/jiri/cmdline"
+	"github.com/dahlia-os/jiri/project"
 )
 
 var (
