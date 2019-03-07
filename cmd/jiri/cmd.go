@@ -12,7 +12,7 @@ import (
 	"runtime"
 	"syscall"
 
-	"github.com/dahlia-os/jiri/jiri/cmdline"
+	"github.com/dahlia-os/jiri/cmdline"
 )
 
 func init() {
