@@ -12,7 +12,7 @@ import (
 	"runtime"
 	"syscall"
 
-	"fuchsia.googlesource.com/jiri/cmdline"
+	"github.com/dahlia-os/jiri/jiri/cmdline"
 )
 
 func init() {
