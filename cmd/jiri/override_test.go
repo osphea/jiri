@@ -11,8 +11,8 @@ import (
 	"strings"
 	"testing"
 
-	"fuchsia.googlesource.com/jiri/jiritest"
-	"fuchsia.googlesource.com/jiri/project"
+	"github.com/dahlia-os/jiri/jiritest"
+	"github.com/dahlia-os/jiri/project"
 )
 
 type overrideTestCase struct {
