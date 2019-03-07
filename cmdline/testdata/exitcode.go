@@ -4,7 +4,7 @@
 
 package main
 
-import "fuchsia.googlesource.com/jiri/cmdline"
+import "github.com/dahlia-os/jiri/cmdline"
 
 // cmdExitCode represents the exitcode command.
 var cmdExitCode = &cmdline.Command{
