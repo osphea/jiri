@@ -8,8 +8,8 @@ import (
 	"bytes"
 	"fmt"
 
-	"fuchsia.googlesource.com/jiri/cmdline"
-	"fuchsia.googlesource.com/jiri/version"
+	"github.com/dahlia-os/jiri/cmdline"
+	"github.com/dahlia-os/jiri/version"
 )
 
 var cmdVersion = &cmdline.Command{
