@@ -54,7 +54,7 @@ def RunSteps(api, category, patch_gerrit_url, patch_project, patch_ref,
             api.raw_io.test_api.stream_output('2016-10-11 14:40:25-07:00'))
     build_time = result.stdout.strip()
 
-    ldflags = "-X \"fuchsia.googlesource.com/jiri/version.GitCommit=%s\" -X \"fuchsia.googlesource.com/jiri/version.BuildTime=%s\"" % (git_commit, build_time)
+    ldflags = "-X \"github.com/dahlia-os/jiri/version.GitCommit=%s\" -X \"github.com/dahlia-os/jiri/version.BuildTime=%s\"" % (git_commit, build_time)
     gopath = api.path['start_dir'].join('go')
     goos, goarch = target.split("-", 2)
 
@@ -63,7 +63,7 @@ def RunSteps(api, category, patch_gerrit_url, patch_project, patch_ref,
                'fuchsia.googlesource.com/jiri/cmd/jiri')
 
     with api.step.context({'env': {'GOPATH': gopath}}):
-        api.go('test', 'fuchsia.googlesource.com/jiri/cmd/jiri')
+        api.go('test', 'github.com/dahlia-os/jiri/cmd/jiri')
 
 
 def GenTests(api):
