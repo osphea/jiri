@@ -4,7 +4,7 @@
 
 package main
 
-import "fuchsia.googlesource.com/jiri/cmdline"
+import "github.com/dahlia-os/jiri/cmdline"
 
 // cmdFlat represents the flat command.
 var cmdFlat = &cmdline.Command{
