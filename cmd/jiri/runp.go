@@ -17,12 +17,12 @@ import (
 	"strings"
 	"sync"
 
-	"fuchsia.googlesource.com/jiri"
-	"fuchsia.googlesource.com/jiri/cmdline"
-	"fuchsia.googlesource.com/jiri/envvar"
-	"fuchsia.googlesource.com/jiri/project"
-	"fuchsia.googlesource.com/jiri/simplemr"
-	"fuchsia.googlesource.com/jiri/tool"
+	"github.com/dahlia-os/jiri"
+	"github.com/dahlia-os/jiri/cmdline"
+	"github.com/dahlia-os/jiri/envvar"
+	"github.com/dahlia-os/jiri/project"
+	"github.com/dahlia-os/jiri/simplemr"
+	"github.com/dahlia-os/jiri/tool"
 )
 
 var runpFlags struct {
