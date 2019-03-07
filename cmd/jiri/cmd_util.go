@@ -10,8 +10,8 @@ import (
 	"path"
 	"path/filepath"
 
-	"fuchsia.googlesource.com/jiri"
-	"fuchsia.googlesource.com/jiri/project"
+	"github.com/dahlia-os/jiri"
+	"github.com/dahlia-os/jiri/project"
 )
 
 // currentProject returns the Project containing the current working directory.
