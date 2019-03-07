@@ -7,7 +7,7 @@ package main
 import (
 	"fmt"
 
-	"fuchsia.googlesource.com/jiri/cmdline"
+	"github.com/dahlia-os/jiri/cmdline"
 )
 
 // cmdFlags represents the flags command.
