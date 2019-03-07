@@ -9,10 +9,10 @@ import (
 	"os"
 	"time"
 
-	"fuchsia.googlesource.com/jiri"
-	"fuchsia.googlesource.com/jiri/cmdline"
-	"fuchsia.googlesource.com/jiri/project"
-	"fuchsia.googlesource.com/jiri/retry"
+	"github.com/dahlia-os/jiri"
+	"github.com/dahlia-os/jiri/cmdline"
+	"github.com/dahlia-os/jiri/project"
+	"github.com/dahlia-os/jiri/retry"
 )
 
 var (
