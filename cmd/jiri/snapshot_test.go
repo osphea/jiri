@@ -12,11 +12,11 @@ import (
 	"path/filepath"
 	"testing"
 
-	"fuchsia.googlesource.com/jiri"
-	"fuchsia.googlesource.com/jiri/gitutil"
-	"fuchsia.googlesource.com/jiri/jiritest"
-	"fuchsia.googlesource.com/jiri/project"
-	"fuchsia.googlesource.com/jiri/tool"
+	"github.com/dahlia-os/jiri"
+	"github.com/dahlia-os/jiri/gitutil"
+	"github.com/dahlia-os/jiri/jiritest"
+	"github.com/dahlia-os/jiri/project"
+	"github.com/dahlia-os/jiri/tool"
 )
 
 func checkReadme(t *testing.T, jirix *jiri.X, project, message string) {
