@@ -10,7 +10,7 @@ import (
 	"strings"
 	"testing"
 
-	"fuchsia.googlesource.com/jiri/jiritest"
+	"github.com/dahlia-os/jiri/jiritest"
 )
 
 func TestManifest(t *testing.T) {
