@@ -7,9 +7,9 @@ package project
 import (
 	"fmt"
 
-	"fuchsia.googlesource.com/jiri"
-	"fuchsia.googlesource.com/jiri/gitutil"
-	"fuchsia.googlesource.com/jiri/tool"
+	"github.com/dahlia-os/jiri"
+	"github.com/dahlia-os/jiri/gitutil"
+	"github.com/dahlia-os/jiri/tool"
 )
 
 type ReferenceState struct {
