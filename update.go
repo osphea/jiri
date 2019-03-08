@@ -18,12 +18,12 @@ import (
 	"strings"
 	"syscall"
 
-	"fuchsia.googlesource.com/jiri/osutil"
-	"fuchsia.googlesource.com/jiri/version"
+	"github.com/dahlia-os/jiri/osutil"
+	"github.com/dahlia-os/jiri/version"
 )
 
 const (
-	JiriRepository    = "https://fuchsia.googlesource.com/jiri"
+	JiriRepository    = "github.com/dahlia-os/jiri"
 	JiriStorageBucket = "https://storage.googleapis.com/fuchsia-build/jiri"
 )
 
