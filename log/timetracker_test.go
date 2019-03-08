@@ -11,7 +11,7 @@ import (
 	"testing"
 	"time"
 
-	"fuchsia.googlesource.com/jiri/color"
+	"github.com/dahlia-os/jiri/color"
 )
 
 const commonPrefix = "seconds taken for operation:"
