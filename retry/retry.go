@@ -10,7 +10,7 @@ import (
 	"fmt"
 	"time"
 
-	"fuchsia.googlesource.com/jiri"
+	"github.com/dahlia-os/jiri"
 )
 
 type RetryOpt interface {
