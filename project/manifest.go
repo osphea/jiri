@@ -24,11 +24,11 @@ import (
 	"text/template"
 	"time"
 
-	"fuchsia.googlesource.com/jiri"
-	"fuchsia.googlesource.com/jiri/cipd"
-	"fuchsia.googlesource.com/jiri/envvar"
-	"fuchsia.googlesource.com/jiri/gerrit"
-	"fuchsia.googlesource.com/jiri/retry"
+	"github.com/dahlia-os/jiri"
+	"github.com/dahlia-os/jiri/cipd"
+	"github.com/dahlia-os/jiri/envvar"
+	"github.com/dahlia-os/jiri/gerrit"
+	"github.com/dahlia-os/jiri/retry"
 	"golang.org/x/net/publicsuffix"
 )
 
