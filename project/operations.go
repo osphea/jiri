@@ -14,10 +14,10 @@ import (
 	"strings"
 	"sync"
 
-	"fuchsia.googlesource.com/jiri"
-	"fuchsia.googlesource.com/jiri/gitutil"
-	"fuchsia.googlesource.com/jiri/log"
-	"fuchsia.googlesource.com/jiri/osutil"
+	"github.com/dahlia-os/jiri"
+	"github.com/dahlia-os/jiri/gitutil"
+	"github.com/dahlia-os/jiri/log"
+	"github.com/dahlia-os/jiri/osutil"
 )
 
 // fsUpdates is used to track filesystem updates made by operations.
