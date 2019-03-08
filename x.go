@@ -18,13 +18,13 @@ import (
 	"sync/atomic"
 	"time"
 
-	"fuchsia.googlesource.com/jiri/analytics_util"
-	"fuchsia.googlesource.com/jiri/cmdline"
-	"fuchsia.googlesource.com/jiri/color"
-	"fuchsia.googlesource.com/jiri/envvar"
-	"fuchsia.googlesource.com/jiri/log"
-	"fuchsia.googlesource.com/jiri/timing"
-	"fuchsia.googlesource.com/jiri/tool"
+	"github.com/dahlia-os/jiri/analytics_util"
+	"github.com/dahlia-os/jiri/cmdline"
+	"github.com/dahlia-os/jiri/color"
+	"github.com/dahlia-os/jiri/envvar"
+	"github.com/dahlia-os/jiri/log"
+	"github.com/dahlia-os/jiri/timing"
+	"github.com/dahlia-os/jiri/tool"
 )
 
 const (
