@@ -16,10 +16,7 @@
 set -euf -o pipefail
 
 # Jiri repo, from which we will download the jiri script wrapper.
-readonly JIRI_REPO_URL="https://fuchsia.googlesource.com/jiri"
-
-# Google Storage bucket that contains prebuilt versions of jiri.
-readonly GS_BUCKET_URL="https://fuchsia-build.storage.googleapis.com/jiri"
+readonly JIRI_REPO_URL="https://github.com/dahlia-os/jiri"
 
 # fatal prints an error message, followed by the usage string, and then exits.
 fatal() {
@@ -30,7 +27,7 @@ Usage:
 
 A typical bootstrap workflow looks like this:
 
-$ curl -s https://fuchsia.googlesource.com/jiri/+/master/scripts/bootstrap_jiri?format=TEXT | base64 --decode | bash -s myroot
+$ curl -s https://github.com/dahlia-os/jiri/scripts/bootstrap_jiri?format=TEXT | base64 --decode | bash -s myroot
 $ export PATH=myroot/.jiri_root/bin:$PATH
 $ cd myroot
 $ jiri import manifest https://example.com/manifest
