@@ -8,7 +8,7 @@ package main
 import (
 	"flag"
 
-	_ "fuchsia.googlesource.com/jiri/metadata"
+	_ "github.com/dahlia-os/jiri/metadata"
 )
 
 func main() {
