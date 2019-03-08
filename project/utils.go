@@ -13,10 +13,10 @@ import (
 	"runtime"
 	"sort"
 
-	"fuchsia.googlesource.com/jiri"
-	"fuchsia.googlesource.com/jiri/gitutil"
-	"fuchsia.googlesource.com/jiri/osutil"
-	"fuchsia.googlesource.com/jiri/retry"
+	"github.com/dahlia-os/jiri"
+	"github.com/dahlia-os/jiri/gitutil"
+	"github.com/dahlia-os/jiri/osutil"
+	"github.com/dahlia-os/jiri/retry"
 )
 
 func isFile(file string) (bool, error) {
