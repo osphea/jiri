@@ -146,7 +146,7 @@
       "--format=%H",
       "-s"
     ],
-    "cwd": "[START_DIR]/go/src/fuchsia.googlesource.com/jiri",
+    "cwd": "[START_DIR]/go/src/github.com/dahlia-os/jiri",
     "name": "git show",
     "stdout": "/path/to/tmp/"
   },
@@ -163,9 +163,9 @@
       "[START_DIR]/cipd/go/bin/go",
       "build",
       "-ldflags",
-      "-X \"fuchsia.googlesource.com/jiri/version.GitCommit=deadbeef\" -X \"fuchsia.googlesource.com/jiri/version.BuildTime=2016-10-11 14:40:25-07:00\"",
+      "-X \"github.com/dahlia-os/jiri/version.GitCommit=deadbeef\" -X \"fuchsia.googlesource.com/jiri/version.BuildTime=2016-10-11 14:40:25-07:00\"",
       "-a",
-      "fuchsia.googlesource.com/jiri/cmd/jiri"
+      "github.com/dahlia-os/jiri/cmd/jiri"
     ],
     "env": {
       "GOARCH": "amd64",
@@ -179,7 +179,7 @@
     "cmd": [
       "[START_DIR]/cipd/go/bin/go",
       "test",
-      "fuchsia.googlesource.com/jiri/cmd/jiri"
+      "github.com/dahlia-os/jiri/cmd/jiri"
     ],
     "env": {
       "GOPATH": "[START_DIR]/go",
