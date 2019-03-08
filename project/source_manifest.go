@@ -14,9 +14,9 @@ import (
 	"strings"
 	"sync"
 
-	"fuchsia.googlesource.com/jiri"
-	"fuchsia.googlesource.com/jiri/gerrit"
-	"fuchsia.googlesource.com/jiri/gitutil"
+	"github.com/dahlia-os/jiri"
+	"github.com/dahlia-os/jiri/gerrit"
+	"github.com/dahlia-os/jiri/gitutil"
 )
 
 const (
