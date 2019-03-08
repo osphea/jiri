@@ -8,9 +8,9 @@ import (
 	"io"
 	"os"
 
-	"fuchsia.googlesource.com/jiri/cmdline"
-	"fuchsia.googlesource.com/jiri/envvar"
-	"fuchsia.googlesource.com/jiri/timing"
+	"github.com/dahlia-os/jiri/cmdline"
+	"github.com/dahlia-os/jiri/envvar"
+	"github.com/dahlia-os/jiri/timing"
 )
 
 // Context represents an execution context of a tool command
