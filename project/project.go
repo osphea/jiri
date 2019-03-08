@@ -24,10 +24,10 @@ import (
 	"sync"
 	"time"
 
-	"fuchsia.googlesource.com/jiri"
-	"fuchsia.googlesource.com/jiri/gitutil"
-	"fuchsia.googlesource.com/jiri/log"
-	"fuchsia.googlesource.com/jiri/retry"
+	"github.com/dahlia-os/jiri"
+	"github.com/dahlia-os/jiri/gitutil"
+	"github.com/dahlia-os/jiri/log"
+	"github.com/dahlia-os/jiri/retry"
 )
 
 var (
