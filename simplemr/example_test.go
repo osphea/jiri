@@ -7,7 +7,7 @@ package simplemr_test
 import (
 	"fmt"
 
-	"fuchsia.googlesource.com/jiri/simplemr"
+	"github.com/dahlia-os/jiri/simplemr"
 )
 
 func ExampleMR() {
