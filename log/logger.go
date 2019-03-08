@@ -14,8 +14,8 @@ import (
 	"sync/atomic"
 	"time"
 
-	"fuchsia.googlesource.com/jiri/color"
-	"fuchsia.googlesource.com/jiri/isatty"
+	"github.com/dahlia-os/jiri/color"
+	"github.com/dahlia-os/jiri/isatty"
 )
 
 // Logger provides for convenient logging in jiri. It supports logger
