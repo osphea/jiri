@@ -14,7 +14,7 @@ import (
 	"strings"
 	"testing"
 
-	"fuchsia.googlesource.com/jiri/lookpath"
+	"github.com/dahlia-os/jiri/lookpath"
 )
 
 func mkdir(t *testing.T, d ...string) string {
