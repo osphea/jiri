@@ -1,2 +1,2 @@
 # jiri
-tool for building dahliaOS
+tool for building dahlia
